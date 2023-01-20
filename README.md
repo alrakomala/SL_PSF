@@ -8,7 +8,7 @@ We started exploring the PSF size and ellipticity. The current default method fo
 
 It is reserved 20% of the selected PSF candidates in order to test the model. Postage stamps (41 $\times$ 41pix) are extracted and fed to the PSF constructor. The fitting of the PSF model is done to each CCD completely independently, using a second-order polynomial to interpolate between stars.
 
-* PSF size dependency with band  PSFsize_band.ipynb
+* PSF size dependency with band  [PSFsize_band.ipynb](/home/alrakomala/notebooks/kaam/myGitRepo/)
 
 * Contruction of custom coadds 
 
