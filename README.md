@@ -8,5 +8,5 @@ This by identifying metrics that allow us to define a function to estimate the p
 We started exploring the PSF size and ellipticity. The current default method for PSF construction within the LSST pipeline uses a modified version of [PSFEx]([https://www.example.com](https://psfex.readthedocs.io/en/latest/)). The algorithm for point source selection uses k-means clustering classification. 
 
 
-
+[PSFEx](https://psfex.readthedocs.io/en/latest/)
 It is reserved 20% of the selected point sources. Postage stamps (41x41pix) are extracted and fed to PSFEx. 
