@@ -10,7 +10,7 @@ It is reserved 20% of the selected PSF candidates in order to test the model. Po
 
 * PSF size dependency on band:  [PSFsize_band.ipynb](./PSFsize_band.ipynb)
 
-* PSF diagnostics. Luminosity residuals, spatial distribution and residual histograms (&nbsp;$\Delta$=PSFmodel-star&nbsp;) for PSF size and ellipticity:  [ellipticity_fwhm_DP02.ipynb](https://github.com/alrakomala/SL_PSF/blob/main/ellipticity_fwhm_DP02.ipynb)
+* PSF diagnostics. Luminosity residuals, spatial distribution and residual histograms ( $\Delta$=PSFmodel-star ) for PSF size and ellipticity:  [ellipticity_fwhm_DP02.ipynb](https://github.com/alrakomala/SL_PSF/blob/main/ellipticity_fwhm_DP02.ipynb)
 
 * Construction of custom coadds:  [custom_coadd_airmassSelection.ipynb](./custom_coadd_airmassSelection.ipynb)
 
