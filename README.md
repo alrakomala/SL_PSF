@@ -8,11 +8,10 @@ We started exploring the PSF size and ellipticity. The current default method fo
 
 It is reserved 20% of the selected PSF candidates in order to test the model. Postage stamps (41 $\times$ 41pix) are extracted and fed to the PSF constructor. The fitting of the PSF model is done to each CCD completely independently, using a second-order polynomial to interpolate between stars.
 
-* PSF size dependency with band  [PSFsize_band.ipynb](/home/alrakomala/notebooks/kaam/myGitRepo/)
+* PSF size dependency on band:  [PSFsize_band.ipynb](./PSFsize_band.ipynb)
 
-* Contruction of custom coadds 
+* PSF diagnostics. Luminosity residuals, spatial distribution and residual histograms ( $\Delta$=PSFmodel-star ) for PSF size and ellipticity:  [ellipticity_fwhm_DP02.ipynb](https://github.com/alrakomala/SL_PSF/blob/main/ellipticity_fwhm_DP02.ipynb)
 
-* PSF diagnostics: PSF size and ellipticity, luminosity residuals, $\Delta = model - star$
+* Construction of custom coadds:  [custom_coadd_airmassSelection.ipynb](./custom_coadd_airmassSelection.ipynb)
 
-* PSF size grids for calexps and coadds, same region in different filters.
-
+* PSF size grids for calexps and coadds, same region in different filters: [PSFsize_filter_comparison.ipynb](https://github.com/alrakomala/SL_PSF/blob/main/PSFsize_filter_comparison.ipynb)
