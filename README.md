@@ -11,7 +11,9 @@ It is reserved 20% of the selected PSF candidates in order to test the model. Po
 
 The moments of the intensity, such as the mean (first moment), variance (second moment), skewness (third moment), and kurtosis (fourth moment) give us information of the size, shape, and orientation of the light distribution. In particular, the determinant of the covariance matrix of the second moment provides information about the shape and orientation of the light distribution, while the trace of the covariance matrix is a measure of the average size of the light distribution. Along the document and in the notebooks we use as PSF size the trace radius of the covariance matrix of the second moment of the intensity distribution. 
 
-* PSF exploration: [PSF_exploration.ipynb](./PSF_exploration.ipynb) Different ways to extract the PSF, residual distribution, comparison between model and actual measurements. Spatial and filter variation in visits and coadds. 
+* PSF exploration: [PSF_exploration.ipynb](./PSF_exploration.ipynb) <br>
+Different ways to extract the PSF, residual distribution, comparison between model and actual measurements. Spatial and filter variation in visits and coadds. 
 
-* Visit selection, custom coadd construction and characterization: [visits_selection_and_coadd.ipynb](./visits_selection_and_coadd.ipynb) For a given sky position (RA, DEC), select the best (user defined) visits and create a custom coadd. The best visits can be chosen according PSF size mean and standard deviation, airmass, seeing, wind velocity.
+* Visit selection, custom coadd construction and characterization: [visits_selection_and_coadd.ipynb](./visits_selection_and_coadd.ipynb) <br>
+For a given sky position (RA, DEC), select the best (user defined) visits and create a custom coadd. The best visits can be chosen according PSF size mean and standard deviation, airmass, seeing, wind velocity.
 
